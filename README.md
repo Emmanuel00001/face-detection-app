@@ -3,6 +3,8 @@ A computer vision application tthat detects human faces in real-time using a web
 ## 🔍 What it does
 - Opens your webcam and scans for faces in real-time
 - Draws a bounding box around every detected face
+- Estimates the gender of each detected face
+- Estimates the age range of each detected face
 - Displays the number of faces detected on screen
 ## 🛠️ Built With
 - Python
