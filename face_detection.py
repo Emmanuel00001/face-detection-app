@@ -4,6 +4,7 @@ age_net = cv2.dnn.readNet('age_net.caffemodel', 'age_deploy.prototxt')
 gender_net = cv2.dnn.readNet('gender_net.caffemodel', 'gender_deploy.prototxt')
 age_labels = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
 gender_labels = ['Male', 'Female']
+MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
 cap = cv2.VideoCapture(0)
 print("Camera started. Press Q to quit.")
 while True:
